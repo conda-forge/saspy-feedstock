@@ -19,7 +19,7 @@ build:
   skip: true  # [py2k]
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
