@@ -14,14 +14,16 @@ Summary: A Python interface module to the SAS System
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/saspy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/saspy-feedstock)
-OSX: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/saspy-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/saspy-feedstock)
+![OSX disabled](https://img.shields.io/badge/OSX-disabled-lightgrey.svg)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/saspy/badges/version.svg)](https://anaconda.org/conda-forge/saspy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/saspy/badges/downloads.svg)](https://anaconda.org/conda-forge/saspy)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-saspy-green.svg)](https://anaconda.org/conda-forge/saspy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/saspy.svg)](https://anaconda.org/conda-forge/saspy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/saspy.svg)](https://anaconda.org/conda-forge/saspy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/saspy.svg)](https://anaconda.org/conda-forge/saspy) |
 
 Installing saspy
 ================
