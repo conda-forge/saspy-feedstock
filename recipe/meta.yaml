@@ -27,6 +27,7 @@ requirements:
     - python
     - ipython >=4
     - pygments
+    - pandas
 
 test:
   imports:
