@@ -1,6 +1,6 @@
-{%set name = "saspy" %}
+{% set name = "saspy" %}
 {% set version = "2.2.7" %}
-{%set hash_type = "sha256" %}
+{% set hash_type = "sha256" %}
 {% set hash_val = "ac26c5820cf8f8554e1ae7fcdd634988a25c0495ae6642efdb169c06e4d929e4" %}
 
 package:
@@ -14,7 +14,8 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  build:
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   skip: true  # [not linux]
   skip: true  # [py2k]
 
@@ -22,6 +23,7 @@ requirements:
   build:
     - python
     - setuptools
+    - pip
   run:
     - python
     - ipython >=4
