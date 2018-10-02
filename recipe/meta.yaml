@@ -13,17 +13,17 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: 1
+  number: 2
+  noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
-  skip: true  # [py2k]
 
 requirements:
   build:
-    - python
+    - python >=3
     - setuptools
     - pip
   run:
-    - python
+    - python >=3
     - ipython >=4
     - pygments
     - pandas
