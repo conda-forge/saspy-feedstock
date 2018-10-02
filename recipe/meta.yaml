@@ -13,9 +13,8 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
-  skip: true  # [not linux]
   skip: true  # [py2k]
 
 requirements:
@@ -36,6 +35,8 @@ test:
 about:
   home: https://github.com/sassoftware/saspy
   license: Apache 2.0
+  license_family: Apache
+  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
   summary: A Python interface module to the SAS System
 
 extra:
