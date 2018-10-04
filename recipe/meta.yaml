@@ -1,7 +1,7 @@
 {% set name = "saspy" %}
-{% set version = "2.2.8" %}
+{% set version = "2.2.9" %}
 {% set hash_type = "sha256" %}
-{% set hash_val = "a9ef5c7e7ea0b939675076129863f4d03a40f97f3faa00185f016cd79acaaf80" %}
+{% set hash_val = "27dcf2e18de29dcd982abe2ced7ae397f587730168277aa2367731133584a6d2" %}
 
 package:
   name: {{ name }}
@@ -13,7 +13,7 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
