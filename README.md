@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About saspy
 ===========
 
@@ -18,8 +14,14 @@ Summary: A Python interface module to the SAS System
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/saspy-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/saspy-feedstock)
+
+<table><tr>
+    <td>All platforms:</td>
+    <td>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
