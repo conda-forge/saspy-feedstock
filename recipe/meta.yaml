@@ -1,6 +1,6 @@
 {% set name = "saspy" %}
-{% set version = "3.2.1" %}
-{% set hash_val = "ef7e7af2f374d2e9e6e23aad45f61fd293110a130c1030c3a3e7e37152e3c2cb" %}
+{% set version = "3.3.3" %}
+{% set hash_val = "f0b028a537dabe3eea6620752be081bb94a451088a8a02641ec7fd22d6249481" %}
 
 package:
   name: {{ name }}
