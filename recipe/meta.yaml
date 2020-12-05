@@ -1,6 +1,6 @@
 {% set name = "saspy" %}
-{% set version = "3.6.1" %}
-{% set hash_val = "59faacb52953d58d4a3a9d56e25cd03dfd5bc92f7ae5385c821ccf1efd799ebe" %}
+{% set version = "3.6.2" %}
+{% set hash_val = "6d919132d85096c67e8c296b43b6187888217b7794b05405848c1e308a4652ba" %}
 
 package:
   name: {{ name }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
-  build:
+  host:
     - python >=3
     - setuptools
     - pip
