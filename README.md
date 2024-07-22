@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/saspy-feedstock
 
 Home: https://github.com/sassoftware/saspy
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Summary: A Python interface module to the SAS System
 
