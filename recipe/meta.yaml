@@ -1,6 +1,6 @@
 {% set name = "saspy" %}
-{% set version = "5.101.0" %}
-{% set hash_val = "56b9a7d387ab5790dba87a22e5d2c60a9d988cf53d1a585d7de0092f7a6ea7c5" %}
+{% set version = "5.101.1" %}
+{% set hash_val = "d48c507a1a553b497163847d1e4bd79ccf92b23ac4e88913b931028d8ed5f9d8" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('_', '-') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('_', '-') }}-{{ version }}.tar.gz
   sha256: {{ hash_val }}
 
 build:
