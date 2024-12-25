@@ -12,22 +12,24 @@ source:
   sha256: {{ hash_val }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
-    - python >=3
+    - python {{ python_min }}
     - setuptools
     - pip
   run:
-    - python >=3
+    - python >={{ python_min }}
     - ipython >=4
     - pygments
     - pandas
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - saspy
 
